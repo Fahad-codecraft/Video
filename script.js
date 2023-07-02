@@ -59,7 +59,7 @@ function getVideoId(url) {
 
 // Function to fetch the video name using the YouTube API
 function fetchVideoName(videoId) {
-  var apiKey = "  "; // Replace with your YouTube API key
+  var apiKey = "YOUR_YOUTUBE_API_KEY"; // Replace with your YouTube API key
   var apiUrl =
     "https://www.googleapis.com/youtube/v3/videos?part=snippet&id=" +
     videoId +
