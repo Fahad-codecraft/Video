@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>YouTube Link Saver</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">YouTube Link Saver</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <input type="text" id="youtubeLink" placeholder="Enter YouTube link">
+        <button onclick="saveLink()">Save</button>
+        <div id="savedLinks">
+            <h2>Saved Links</h2>
+            <ul id="linkList"></ul>
+        </div>
+        <div id="videoDetailsContainer"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
